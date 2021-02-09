@@ -25,17 +25,17 @@ let pos = 0;
 
 function setup() {
 
-  alert("  For this project my generative art focuses on the backround. The user\n " + 
-   "can use their mouse to control how the drawing is created my either moving \n" + 
-   "their cursor up or down the screen or left or right. The fading rings\n" +
-    "ultimately becomes the final product. I also use the concept of symmetry\n."+
-    "The symmetry I used is embedded in the rings that make up the drawings.\n" + 
-    "As the user moves their mouse to create different types of ring configurations\n" +
-    "all the rings on the screen are also converted to the same configuration.\n" + 
-    "I have also included a directory with screenshots of some of the different images\n" +
-    "a user can create with my generative art program. Inorder to create a distinctive\n" +
+  alert("  For this project my generative art focuses on the backround. The user " + 
+   "can use their mouse to control how the drawing is created my either moving " + 
+   "their cursor up or down the screen or left or right. The fading rings" +
+    "ultimately becomes the final product. I also use the concept of symmetry."+
+    "The symmetry I used is embedded in the rings that make up the drawings." + 
+    "As the user moves their mouse to create different types of ring configurations" +
+    "all the rings on the screen are also converted to the same configuration." + 
+    "I have also included a directory with screenshots of some of the different images" +
+    "a user can create with my generative art program. Inorder to create a distinctive" +
     "image I used an array of colors for the rings to display on a dark backbroung. ");
-    
+
     createCanvas(700, 700);
     noStroke();
     fill(370,100,140);
