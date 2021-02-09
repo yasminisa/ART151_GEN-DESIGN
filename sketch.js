@@ -36,7 +36,7 @@ function setup() {
     "a user can create with my generative art program. Inorder to create a distinctive" +
     "image I used an array of colors for the rings to display on a dark backbroung. ");
 
-    createCanvas(700, 700);
+    createCanvas(displayWidth, displayHeight);
     noStroke();
     fill(370,100,140);
     rectMode(CENTER);
