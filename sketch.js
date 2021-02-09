@@ -39,7 +39,7 @@ function setup() {
     createCanvas(700, 700);
     noStroke();
     fill(370,100,140);
-    //recMode(CENTER);
+    rectMode(CENTER);
     let movingX = 25;
     let movingY = 15;
   }
