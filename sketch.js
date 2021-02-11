@@ -28,7 +28,7 @@ function setup() {
   alert("How to interact:\n" +
     " Use your cursor to navigate to different portions of the screen to" + 
         " obtain different ring configurations for your drawing\n" +
-        "\n" + "Formal Description:\n" +
+        "Formal Description:\n" +
      "For this project my generative art focuses on the backround. The user " + 
    "can use their mouse to control how the drawing is created my either moving " + 
    "their cursor up or down the screen or left or right. The fading rings" +
