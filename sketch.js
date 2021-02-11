@@ -25,9 +25,10 @@ let pos = 0;
 
 function setup() {
 
-  alert(" Use your cursor to navigate to different portions of the screen to" + 
-        " obtain different ring configurations for your drawing" +
-        "\n" +
+  alert("How to interact:\n" +
+    " Use your cursor to navigate to different portions of the screen to" + 
+        " obtain different ring configurations for your drawing\n" +
+        "\n" + "Formal Describtion:\n"
      "For this project my generative art focuses on the backround. The user " + 
    "can use their mouse to control how the drawing is created my either moving " + 
    "their cursor up or down the screen or left or right. The fading rings" +
@@ -37,7 +38,7 @@ function setup() {
     "all the rings on the screen are also converted to the same configuration." + 
     "I have also included a directory with screenshots of some of the different images" +
     "a user can create with my generative art program. Inorder to create a distinctive" +
-    "image I used an array of colors for the rings to display on a dark backbroung. ");
+    "image I used an array of colors for the rings to display on a dark backbround. ");
 
     createCanvas(displayWidth, displayHeight);
     noStroke();
